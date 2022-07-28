@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(teal, skyblue, royalblue);
+}
+
+.input_box_button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

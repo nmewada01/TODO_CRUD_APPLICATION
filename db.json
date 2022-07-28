@@ -1,0 +1,29 @@
+{
+  "user": [
+    {
+      "name": "Albert",
+      "status": false,
+      "id": 1
+    },
+    {
+      "name": "Nrupul",
+      "status": false,
+      "id": 2
+    },
+    {
+      "name": "Varun",
+      "status": false,
+      "id": 3
+    },
+    {
+      "name": "Yogesh",
+      "status": false,
+      "id": 4
+    },
+    {
+      "name": "Swananda",
+      "status": false,
+      "id": 5
+    }
+  ]
+}
