@@ -28,7 +28,7 @@ const Todo = () => {
 
   const handleToggle = (id, newStatus) => {
     setLoading(true);
-    toggleTodoStatus({ id, newStatus }).then(() => handleTodo);
+    toggleTodoStatus({ id, newStatus }).then(() => handleTodo());
   };
 
   const handleAdd = (name, setText) => {
