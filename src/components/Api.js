@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export function getTodos() {
-  return axios.get("http://localhost:8080/user/");
+  return axios.get("http://localhost:8080/user");
 }
 
 export function deleteTodos(id) {
@@ -13,7 +13,7 @@ export function deleteTodos(id) {
 
 export function addTodo({ name, status }) {
   return axios({
-    url: `http://localhost:8080/user/`,
+    url: `http://localhost:8080/user`,
     method: "POST",
     data: {
       name,

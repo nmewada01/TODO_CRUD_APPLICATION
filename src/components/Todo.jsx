@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import TodoItems from "./TodoItem";
 import { addTodo, deleteTodos, getTodos, toggleTodoStatus } from "./Api";
 import AddTodo from "./AddTodo";
-import { Spinner } from "@chakra-ui/react";
+import { Box, Spinner } from "@chakra-ui/react";
 
 const Todo = () => {
   const [data, setData] = useState([]);
@@ -59,7 +59,7 @@ const Todo = () => {
         </div>
       )}
       <AddTodo handleAdd={handleAdd} />
-      <div>
+      <Box borderRadius={'2xl'} width={["95%", "80%", "60%", "50%"]} m="auto" minH={'80vh'} bg={"#94b7e9"}     mt="1rem"    p="1rem">
         {data.map((t) => (
           <TodoItems
             handleDelete={handleDelete}
@@ -70,7 +70,7 @@ const Todo = () => {
             handleToggle={handleToggle}
           />
         ))}
-      </div>
+      </Box >
     </div>
   );
 };

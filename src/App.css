@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   height: 100vh;
-  background-image: linear-gradient(teal, skyblue, royalblue);
+  background-color: #bdc4cb;
+  /* background-image: linear-gradient(green,green); */
 }
 
 .input_box_button {

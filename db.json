@@ -1,29 +1,44 @@
 {
   "user": [
     {
-      "name": "Albert",
+      "name": "Naresh Patel",
       "status": false,
       "id": 1
     },
     {
-      "name": "Nrupul",
+      "name": "Vinod Patel",
       "status": false,
       "id": 2
     },
     {
-      "name": "Varun",
-      "status": false,
+      "name": "Rohit Patel",
+      "status": true,
       "id": 3
     },
     {
-      "name": "Yogesh",
+      "name": "Ranu Patel",
       "status": false,
       "id": 4
     },
     {
-      "name": "Swananda",
+      "name": "Jatin Patel",
       "status": false,
       "id": 5
+    },
+    {
+      "name": "Safal Patel",
+      "status": false,
+      "id": 6
+    },
+    {
+      "name": "Vishal Patel",
+      "status": false,
+      "id": 7
+    },
+    {
+      "name": "Rohan Patel",
+      "status": true,
+      "id": 8
     }
   ]
 }
